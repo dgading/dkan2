@@ -33,7 +33,7 @@ content:
   field_json_metadata:
     weight: 121
     settings:
-      json_form: "{\n  \"title\": \"Datasets\",\n  \"description\": \"A simple dataset.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"title\"\n  ],\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\",\n      \"title\": \"Title\"\n    },\n    \"identifier\": {\n      \"type\": \"string\",\n      \"title\": \"Identifier\",\n      \"description\": \"Unique identifier for dataset.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"title\": \"Description\"\n    },\n    \"organization\": {\n      \"type\": \"string\",\n      \"title\": \"Organization\"\n    },\n    \"created\": {\n      \"type\": \"string\",\n      \"title\": \"Created\",\n      \"format\": \"date-time\"\n    },\n    \"modified\": {\n      \"type\": \"string\",\n      \"title\": \"Modified\",\n      \"format\": \"date-time\"\n    },\n    \"resources\": {\n      \"type\": \"array\",\n      \"title\": \"Resources\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"title\": {\n            \"type\": \"string\",\n            \"title\": \"Title\"\n          },\n          \"uri\": {\n            \"type\": \"string\",\n            \"title\": \"URI\"\n          },\n          \"type\": {\n            \"type\": \"string\",\n            \"title\": \"Type\",\n            \"enum\": [\n              \"csv\",\n              \"html\",\n              \"xls\"\n            ]\n          }\n        }\n      }\n    }\n  }\n}"
+      json_form: ''
       json_form_default_value: ''
       show_textarea: 0
     third_party_settings: {  }
