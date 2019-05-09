@@ -1,0 +1,6 @@
+interra_frontend.interra_theme_settings:  
+  title: 'Interra Theme Configuration'  
+  route_name: interra_frontend.interra_theme_settings 
+  description: 'Set theme options for the Interra Frontend'  
+  parent: system.admin_config_system  
+  weight: 99  

@@ -1,0 +1,13 @@
+<?php
+
+function interra_integrated_theme($existing, $type, $theme, $path) {
+  return [
+    'interra_integrated' => [
+      '#attached' => [
+        'library' => [
+          'interra_integrated/interra'
+        ],
+      ],
+    ],
+  ];
+}

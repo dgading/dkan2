@@ -1,0 +1,11 @@
+interra:
+  version: 1.x
+  css:
+    react:
+      css/2.a0aec669.chunk.css: {}
+  js:
+    js/2.39bbf3f1.chunk.js: {}
+    js/main.28176dc5.chunk.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings

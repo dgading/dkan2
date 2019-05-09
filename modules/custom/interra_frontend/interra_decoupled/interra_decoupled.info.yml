@@ -1,4 +1,4 @@
-name: Interra Front End
+name: Interra Front End Decoupled
 description: 'Routes Drupal to the Interra Front End.'
 type: module
 core: 8.x

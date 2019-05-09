@@ -15,13 +15,17 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 */
 class FrontEndController extends ControllerBase {
 
-  private $chunkId = '4883fea295316854f264';
+  private $chunkId = 'b3665a0e6f933388cb94';
 
   public function about ( Request $request ) {
     return $this->buildPage( $request );
   }
   public function home ( Request $request ) {
-    return $this->buildPage( $request );
+    // return $this->buildPage( $request );
+    return [
+      '#theme' => 'my_template',
+      '#test_var' => $this->t('Test Value'),
+    ];
   }
   public function search ( Request $request ) {
     return $this->buildPage( $request );
@@ -46,6 +50,13 @@ class FrontEndController extends ControllerBase {
     $page = new InterraPage();
     return new Response( $page->build() );
   }
+  public function content() {
+    return [
+      '#theme' => 'my_template',
+      '#test_var' => $this->t('Test Value'),
+    ];
+  }
+
 }
 
 

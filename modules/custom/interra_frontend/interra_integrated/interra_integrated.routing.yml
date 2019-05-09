@@ -1,0 +1,36 @@
+interra_integrated.home:
+  path: '/home'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'
+interra_frontend.search:
+  path: '/search'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'
+interra_frontend.api:
+  path: '/api'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'
+interra_frontend.organizations:
+  path: '/organization/{id}'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'
+interra_frontend.dataset:
+  path: '/dataset/{id}'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'
+interra_frontend.distribution:
+  path: '/distribution/{id}'
+  defaults:
+   { _controller: '\Drupal\interra_integrated\Controller\InterraIntegratedController::default_page'}
+  requirements:
+    _permission: 'access content'

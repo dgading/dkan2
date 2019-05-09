@@ -1,0 +1,7 @@
+name: Interra Front End Integrated
+description: 'Includes the Interra Front End in a Drupal page.'
+type: module
+core: 8.x
+dependencies:
+  - drupal:field
+package: DKAN
